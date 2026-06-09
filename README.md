@@ -58,6 +58,15 @@ C, S, G, x, y, SS, M, P
 
 The `P` value is matched to the last integer found in each image filename.
 
+
+## Example Images
+
+The `examples` folder includes one or two small demonstration UV-light images.
+
+These images are provided only to illustrate the expected input format and to allow users to test the routine.
+Real unpublished field photographs or complete sample datasets are not included for data-protection and publication reasons.
+
+Users should replace the example images with their own UV-light photographs when applying the workflow to real samples.
 ## Outputs
 
 For each processed image folder, the routine creates:
