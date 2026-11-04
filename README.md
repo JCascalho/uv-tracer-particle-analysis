@@ -67,6 +67,24 @@ These images are provided only to illustrate the expected input format and to al
 Real unpublished field photographs or complete sample datasets are not included for data-protection and publication reasons.
 
 Users should replace the example images with their own UV-light photographs when applying the workflow to real samples.
+
+## Vilamoura Lower Shoreface — M2 Case Study
+
+A standalone Python implementation of the fluorescent sediment tracer detection and quantification workflow is available for the Vilamoura lower shoreface study (Algarve, Portugal).
+
+The M2 routine applies validated Lab colour-space segmentation and morphological filtering to identify fluorescent tracer particles in UV-light photographs. It generates binary masks, outlined photographs, particle counts, concentrations, and individual particle areas.
+
+The study includes two example photographs and can be executed without geographical coordinates or an external reference spreadsheet.
+
+**[Access the Vilamoura Lower Shoreface M2 study](studies/vilamoura_lower_shoreface/)**
+
+To run the demonstration, navigate to the study directory and execute:
+
+```bash
+python M2_fluorescent_tracer_detection.py
+```
+
+
 ## Outputs
 
 For each processed image folder, the routine creates:
